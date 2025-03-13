@@ -1,7 +1,10 @@
+import FeaturedMovie from "@/components/featured-movie";
 import HomeContainer from "@/containers/home";
 
 const Home = () => {
-    return <div>Home</div>;
+    return <div>
+        <HomeContainer/>
+    </div>;
 }
 
 export default Home
